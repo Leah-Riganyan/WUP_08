@@ -39,6 +39,12 @@ summary.lm(simp)
 ```
 Compared to the neck model, this adjusted r-square for age is 0.5073. The neck model's value at 0.7476 is closer to 1, meaning it's a better chart than this one is.
 
+```{r}
+simp <- lm(LENGTH~HEADLEN,data=bears)
+plot(LENGTH~HEADLEN,data=bears)
+abline(simp)
+summary.lm(simp)
+```
 
 ## now predict the length of a bear who has a neck of 17, 22 and 26
 
