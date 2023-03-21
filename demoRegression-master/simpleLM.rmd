@@ -47,7 +47,18 @@ summary.lm(simp)
 ```
    
 The adjusted r-square for this chart is 0.8434, making it the best model considering the previous two.
-   
+
+```{r}
+simp <- lm(LENGTH~HEADWTH,data=bears)
+plot(LENGTH~HEADWTH,data=bears)
+abline(simp)
+summary.lm(simp)
+```
+
+
+
+
+
 ## now predict the length of a bear who has a neck of 17, 22 and 26
 
 
