@@ -75,7 +75,7 @@ summary.lm(simp)
 
 
 ```{r}
-new <- data.frame(NECK=c(17,22,26))
+new <- data.frame(WEIGHT=c(17,22,26))
 predict(simp,new)
 predict(simp,new,se.fit=TRUE)
 ```
