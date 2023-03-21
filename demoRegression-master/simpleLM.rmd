@@ -28,7 +28,7 @@ summary.lm(simp)
 ```
    
 The closer the adjusted r-squared value is to 1, the better the model is. This model using neck has an adjusted r-square of 0.7476
-
+   
 
 
 ```{r}
@@ -37,7 +37,7 @@ plot(LENGTH~AGE,data=bears)
 abline(simp)
 summary.lm(simp)
 ```
-   
+Compared to the neck model, this adjusted r-square for age is 0.5073. The neck model's value at 0.7476 is closer to 1, meaning it's a better chart than this one is.
 
 
 ## now predict the length of a bear who has a neck of 17, 22 and 26
