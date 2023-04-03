@@ -81,3 +81,13 @@ predict(simp,new,se.fit=TRUE)
 ```
 ## Surely there is another variable that can better predict LENGTH than NECK. Find one and compare its performance to that of neck by it value of Adjusted-Rsquared (bigger is better).
 
+### Best Model, based on Adjusted-Rsquared
+
+Using the value of the adjusted-rsquared from each model, we can rank the best to worst in predicting the length of the bear based on its other body parts. 
+  
+The best model for predicting length is with the head length model, which has an adjusted-rsquared value of 0.8434   
+The second best would be the chest model, with an adjusted rsquared value at 0.7869.   
+The third best would be the neck model, with an adjusted rsquared value at 0.7476.    
+The fourth best would be the weight model, with an adjusted rsquared value at 0.7423.  
+The fifth best would be the head width model, with an adjusted rsquared value at 0.5321.    
+Finally, the sixth best would be the age model, with an adjusted rsquared value at 0.5073.  
